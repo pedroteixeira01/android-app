@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_logo">MobilMotors Logo</string>
+    <string name="app_name">MobilMotors</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MobilMotors</string>
+    <string name="nav_header_subtitle">Compre aqui seu carro zero !</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Início</string>
+    <string name="menu_conta">Perfil</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_conf">Configurações</string>
+    <string name="menu_info">Sobre Nós</string>
+    <string name="menu_compart">Compartilhar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

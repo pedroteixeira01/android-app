@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Conta">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_perfil"
+                    android:icon="@drawable/ic_menu_pessoa"
+                    android:title="@string/menu_conta" />
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="Login"
+                    android:icon="@drawable/ic_login"/>
+
+                <item
+                    android:id="@+id/nav_cadastrar"
+                    android:title="Cadastrar"
+                    android:icon="@drawable/ic_registrar"/>
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Sair"
+                    android:icon="@drawable/ic_logout"/>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Loja">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_menu_inicio"
+                    android:title="@string/menu_home" />
+                <item
+                    android:id="@+id/nav_config"
+                    android:icon="@drawable/ic_menu_conf"
+                    android:title="@string/menu_conf" />
+                <item
+                    android:id="@+id/nav_info"
+                    android:icon="@drawable/ic_menu_info"
+                    android:title="@string/menu_info" />
+
+            </menu>
+
+        </item>
+    </group>
+
+    <item
+        android:title="Comunicação">
+        <menu>
+
+            <item
+                android:id="@+id/nav_compartilhar"
+                android:icon="@drawable/ic_menu_compartilha"
+                android:title="@string/menu_compart" />
+
+            <item
+                android:id="@+id/nav_avaliar"
+                android:title="Avaliar"
+                android:icon="@drawable/ic_avaliar"/>
+
+        </menu>
+    </item>
+</menu>
